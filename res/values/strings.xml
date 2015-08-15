@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">책 쌓는 서재</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_custom_list">CustomListActivity</string>
+    <string name="title_activity_edit">책 추가하기</string>
+    <string name="title_activity_load_naver">LoadNaver</string>
+    <string name="title_activity_search">책 검색</string>
+    <string name="detail">책 상세 정보</string>
+    <string name="title_activity_scan">Scan</string>
+
+</resources>

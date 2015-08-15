@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/eimage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:src="@drawable/loading" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            
+                <TextView
+        android:id="@+id/etitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:textColor="#ffffff"
+        android:text="책 제목" />
+
+            <TextView
+                android:id="@+id/ewriter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="글쓴이"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/ewritetime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="작성 시간"
+                android:padding="5dp"
+                android:textColor="@android:color/secondary_text_light"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/econtent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:textColor="@android:color/primary_text_light_nodisable"
+        android:text="본문 내용" />
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wood"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="책 이름 : "
+            android:textColor="@android:color/primary_text_light_nodisable"
+            android:textSize="20dp"
+            android:layout_gravity="top"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="작가 : "
+            android:layout_gravity="top"
+            android:textColor="@android:color/primary_text_light_nodisable"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textWriter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내용: "
+            android:textColor="@android:color/primary_text_light_nodisable"
+            android:textSize="20dp"
+            android:layout_gravity="top"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textdes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/sscontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="서평 및 감상 등 원하는 대로 적으세요."
+        android:textColor="@android:color/primary_text_light"
+        android:layout_weight="1"
+        android:inputType="textMultiLine" />
+
+    <requestFocus />
+
+</LinearLayout>

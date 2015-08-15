@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jung.database.EditActivity" >
+
+    <item
+        android:id="@+id/sendbtn"
+        android:icon="@drawable/ic_action_accept"
+        android:orderInCategory="4"
+        android:showAsAction="always"
+        android:title="완료"/>
+
+</menu>

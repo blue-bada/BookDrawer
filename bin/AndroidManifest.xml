@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jungtaehun.booksns"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/book"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name="com.jungtaehun.booksns.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppBaseTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jungtaehun.booksns.CustomListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.jungtaehun.booksns.ArticleViewer"
+            android:label="@string/detail" >
+        </activity>
+        <activity
+            android:name="com.jungtaehun.booksns.EditActivity"
+            android:label="@string/title_activity_edit" >
+        </activity>
+        <activity
+            android:name="com.jungtaehun.booksns.Article"
+            android:label="@string/title_activity_edit" >
+        </activity>
+        <activity
+            android:name="com.jungtaehun.booksns.Dao"
+            android:label="@string/title_activity_edit" >
+        </activity>
+        <activity
+            android:name="com.jungtaehun.booksns.Proxy"
+            android:label="@string/title_activity_edit" >
+        </activity>
+        <activity
+            android:name="com.jungtaehun.booksns.ProxyUP"
+            android:label="@string/title_activity_edit" >
+        </activity>
+        <activity
+            android:name="com.jungtaehun.booksns.CustomAdapter"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.jungtaehun.booksns.FileDownloader"
+            android:label="@string/title_activity_edit" >
+        </activity>
+        <activity
+            android:name="com.jungtaehun.booksns.LoadNaver"
+            android:label="@string/title_activity_load_naver" >
+        </activity>
+        <activity
+            android:name="com.jungtaehun.booksns.LNaver"
+            android:label="@string/title_activity_load_naver" >
+        </activity>
+        <activity
+            android:name="com.jungtaehun.booksns.Search"
+            android:label="@string/title_activity_search"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+        <activity
+            android:name="com.jungtaehun.booksns.Scan"
+            android:label="@string/title_activity_scan"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+        </activity>
+    </application>
+
+</manifest>
